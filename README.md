@@ -97,11 +97,15 @@ venv\Scripts\activate
 python -m venv venv
 source venv/bin/activate
 ```
-2. **Instale as dependências**
+2. **Entre no diretório do back-end**
+```bash
+cd api/
+```
+3. **Instale as dependências**
 ```bash
 pip install -r requirements.txt
 ```
-3. **Inicie o servidor**
+4. **Inicie o servidor**
 ```bash
 python app.py
 ```
